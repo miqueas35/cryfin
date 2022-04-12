@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-const elemento = <h1>CryFIn inicio</h1>;
+import App from "./App";
 
 const contenedor = document.querySelector("#root");
 
-ReactDOM.render(elemento, contenedor);
+ReactDOM.render(<App />, contenedor);
