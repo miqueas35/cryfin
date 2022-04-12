@@ -1,20 +1,19 @@
 import React from 'react'
 
+
 const Login = () => {
   return (
     <div className="container">
-      <div className="row card-login">
-        <div className="col-12 col-md-4">
-          <div className="card">
-            <div className="d-flex justify-content-center py-3 bg-light">
-              <img src={logo} className="card-img-top" alt="logo" />
+        <div className="row card-login">
+            <div className="col-12 col-md-4">
+                <div class="card">
+                <div className="d-flex justify-content-center py-3 bg-light">
+              {/* <img src={logo} className="card-img-top" alt="logo" /> */}
             </div>
-
-            <div className="card-body">
-              <h5 className="card-title text-center">Inicio de sesión</h5>
-              {/* <LoginForm /> */}
-              <form>
-                <div className="form-group mb-3">
+  <div class="card-body">
+    <h5 class="card-title text-center">Inicio de sesión</h5>
+    <form> 
+    <div className="form-group mb-3">
                   <label>
                     <b>Correo electrónico</b>
                   </label>
@@ -40,16 +39,19 @@ const Login = () => {
                 <div className="d-flex justify-content-end">
                   <button className="btn btn-coin">Iniciar</button>
                 </div>
-              </form>
-            </div>
-            <div className="text-center bg-light py-3">
-              <LoginGoogle />
-            </div>
-          </div>
-        </div>
-      </div>
+    </form>
     </div>
-  );
+    {/* <div className="text-center bg-light py-3">
+              <LoginGoogle />
+            </div> */}
+  
+                </div> 
+           </div>
+         </div>       
+    </div>  
+    
+  )
 }
 
 export default Login
+

@@ -1,0 +1,6 @@
+.card-login {
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
