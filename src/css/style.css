@@ -4,3 +4,9 @@
     justify-content: center;
     align-items: center;
   }
+.card-login img {
+  width: 100px;
+}  
+.img-favicon{
+  width: 30px;
+}
