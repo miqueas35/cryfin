@@ -13,7 +13,7 @@ const Login = () => {
   <div class="card-body">
     <h5 class="card-title text-center">Inicio de sesión</h5>
     <form> 
-    <div className="form-group mb-3">
+    <div className="form-group mb-3">npm
                   <label>
                     <b>Correo electrónico</b>
                   </label>
