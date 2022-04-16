@@ -1,8 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const elemento = <h1>CryFIn inicio</h1>;
+import App from "./App";
 
-const contenedor = document.querySelector("#root");
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 
-ReactDOM.render(elemento, contenedor);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
