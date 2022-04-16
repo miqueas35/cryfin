@@ -1,0 +1,12 @@
+.navbar{
+    background-color: rgb(147, 150, 179);
+    color: white;
+  }
+  
+  .nav-item{
+    margin-right: 2rem;
+  }
+
+  .img-logo {
+    width: 200px;
+  }

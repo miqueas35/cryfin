@@ -2,27 +2,6 @@ body {
     background: rgb(40, 34, 98) !important;
   }
   
-  .img-Error{
-    width: 600px;
-    align-items: center;
-    margin-left: 35%;
-    margin-top: 10%;
-  }
-
-  .navbar{
-    background-color: rgb(147, 150, 179);
-    color: white;
-  }
   
-  .nav-item{
-    margin-right: 2rem;
-  }
-
-  .img-logo {
-    width: 200px;
-  }
-
-  .img-footer{
-    width: 75px;
-  }
+  
 
