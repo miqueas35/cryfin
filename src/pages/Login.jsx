@@ -8,7 +8,7 @@ const Login = () => {
             <div className="col-12 col-md-4">
                 <div class="card">
                 <div className="d-flex justify-content-center py-3 bg-light">
-              <img src={logo} className="card-img-top" alt="logo" />
+              <img src={logo} className="card-img-top img-logo" alt="logo" />
             </div>
   <div class="card-body">
     <h5 class="card-title text-center">Inicio de sesión</h5>
