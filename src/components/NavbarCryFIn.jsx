@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from"../img/Logo.png"
 import {Link} from "react-router-dom"
 
-import "../css/style.css"
+import "../css/navbar.css"
 
 
 const NavbarCryFIn  = () => {

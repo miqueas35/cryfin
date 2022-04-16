@@ -1,6 +1,7 @@
 import React from 'react'
 import Favicon from "../img/Favicon.png"
 
+import "../css/footer.css"
 import "font-awesome/css/font-awesome.css";
 import { Link } from 'react-router-dom'
 
