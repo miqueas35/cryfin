@@ -1,5 +1,5 @@
 import React from 'react' 
-import logo from '../img/Favicon.png'
+import logo from '../img/Logo.png'
 
 const Login = () => {
   return (
