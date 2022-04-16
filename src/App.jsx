@@ -1,6 +1,6 @@
 import React from 'react'
 import Login from './pages/Login'
-import "./css/style.css"
+import "./css/login.css"
 
 const App = () => {
   return (
