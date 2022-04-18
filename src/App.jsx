@@ -9,10 +9,11 @@ import Loading from "./components/Loading"
 
 import "../src/css/style.css"
 
+
 const App = () => {
     return (
 
-      <Footer></Footer>
+      <NavbarCryFIn></NavbarCryFIn>
 
 
       // <BrowserRouter>
