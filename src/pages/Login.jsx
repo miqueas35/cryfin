@@ -6,14 +6,14 @@ const Login = () => {
     <div className="container">
         <div className="row card-login">
             <div className="col-12 col-md-4">
-                <div class="card">
-                <div className="d-flex justify-content-center py-3 bg-light">
+                <div className="card">
+                <div className="d-flex justify-content-center p-3 bg-light">
               <img src={logo} className="card-img-top img-logo" alt="logo" />
             </div>
-  <div class="card-body">
-    <h5 class="card-title text-center">Inicio de sesión</h5>
+  <div className="card-body">
+    <h5 className="card-title text-center">Inicio de sesión</h5>
     <form> 
-    <div className="form-group mb-3">npm
+    <div className="form-group mb-3">
                   <label>
                     <b>Correo electrónico</b>
                   </label>
