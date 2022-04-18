@@ -4,9 +4,15 @@
   }
   
   .nav-item{
-    margin-right: 2rem;
+    font-size: larger;
+    font-family: "Source Code Pro", monospace;
+    transition: transform 0.2s;
   }
 
+  .nav-item:hover{
+    transform: scale(1.1);
+  }
+  
   .img-logo {
     width: 200px;
   }

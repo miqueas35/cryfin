@@ -13,8 +13,8 @@ import "../src/css/style.css"
 const App = () => {
     return (
 
-      <NavbarCryFIn></NavbarCryFIn>
-
+      <Footer>
+      </Footer>
 
       // <BrowserRouter>
       //   <Routes>

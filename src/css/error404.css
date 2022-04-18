@@ -1,6 +1,12 @@
+.row{
+  height: 100%;
+}
+.col{
+  height: 100%;
+  text-align: center;
+  
+}
 .img-Error{
-    width: 600px;
-    align-items: center;
-    margin-left: 35%;
-    margin-top: 10%;
+  width: 80%;
   }
+

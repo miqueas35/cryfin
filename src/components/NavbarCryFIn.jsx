@@ -19,27 +19,27 @@ const NavbarCryFIn  = () => {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item m-2 text-uppercase">
+            <li className="nav-item m-4 text-uppercase">
               {/* <Link to="/"> */}
                 Home
               {/* </Link> */}
             </li>
-            <li className="nav-item m-2 text-uppercase">
+            <li className="nav-item m-4 text-uppercase">
               {/* <Link to="/">  */}
                 User
               {/* </Link>   */}
             </li>
-            <li className="nav-item m-2 text-uppercase">
+            <li className="nav-item m-4 text-uppercase">
               {/* <Link to="/">  */}
                 News
               {/* </Link>  */}
             </li>
-            <li className="nav-item m-2 text-uppercase">
+            <li className="nav-item m-4 text-uppercase">
               {/* <Link to="/"> */}
                 CryptoCurrecy
               {/* </Link>  */}
             </li>
-            <li className="nav-item m-2 text-uppercase">
+            <li className="nav-item m-4 text-uppercase">
               {/* <Link to="/">   */}
                 Log Out
               {/* </Link>  */}
