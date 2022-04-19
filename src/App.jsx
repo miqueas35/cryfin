@@ -13,7 +13,8 @@ import "../src/css/style.css"
 const App = () => {
     return (
 
-      <Error404></Error404>
+      <Footer>
+      </Footer>
 
       // <BrowserRouter>
       //   <Routes>
