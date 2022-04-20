@@ -1,13 +1,13 @@
 import React from "react";
 import CarouselHome from "../components/CarouselHome";
-import CarouserCripto from "../components/CarouserCripto";
+import CriptoLoading from "../components/CriptoLoading";
 import ShowProyect from "../components/ShowProyect";
 
 function Home() {
   return (
     <div>
       <CarouselHome />
-          <CarouserCripto />
+          <CriptoLoading />
           <ShowProyect />
 
       
