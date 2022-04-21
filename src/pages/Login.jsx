@@ -1,6 +1,6 @@
 import React from 'react' 
 import logo from '../img/Logo.png'
-
+import "../css/login.css"
 const Login = () => {
   return (
     <div className="container">

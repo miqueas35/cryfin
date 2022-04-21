@@ -1,21 +1,15 @@
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
-// import React from 'react'
-import Login from './pages/Login'
-import Selector from './pages/Selector'
-import PublicarProyecto from './pages/PublicarProyecto'
-import Invertir from './pages/Invertir'
-import "./css/login.css"
+import { BrowserRouter,Routes,Route } from "react-router-dom"
+import "./css/style.css"
+import Login from "./pages/Login"
+import Selector from "./pages/Selector"
+
 
 const App = () => {
   return (
       <BrowserRouter>
       <Routes>
-        {/* <Route path='/' element= {<Home/>}/> */}
-        {/* <Route path='*' element= {<Error404/>}/> */}
-        <Route path='login' element= {<Login/>}/>
-        <Route path='selector' element= {<Selector/>}/>
-        <Route path='publicarproyecto' element= {<PublicarProyecto/>}/>
-        <Route path='invertir' element= {<Invertir/>}/>
+        <Route path="login" element={<Login/>}/>
+        <Route path="selector" element={<Selector/>}/>
       </Routes>
       </BrowserRouter>
   
