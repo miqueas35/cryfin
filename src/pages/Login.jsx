@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <div className="container">
         <div className="row card-login">
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-5 mt-3">
                 <div className="card">
                 <div className="d-flex justify-content-center p-3 bg-light">
               <img src={logo} className="card-img-top img-logo" alt="logo" />
