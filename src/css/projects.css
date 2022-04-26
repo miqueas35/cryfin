@@ -1,0 +1,19 @@
+.container{
+    background-color: white;
+    color: black;
+    
+}
+
+.card{
+    /* width: 400px !important; */
+    border-radius: 20px !important;
+    object-fit: cover;
+    padding: 0px !important;
+}
+
+.card img{
+    border-radius: 20px;
+    object-fit: cover;
+    height: 350px;
+}
+   

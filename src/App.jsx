@@ -1,30 +1,54 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom";
-import "./css/style.css";
-import Login from "./pages/Login";
-import ModalPublicar from "./pages/ModalPublicar";
-import Registro from "./pages/Registro";
-import Selector from "./pages/Selector";
-import ProtectedRoutes from "./routes/ProtectedRoutes";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Error404 from "./pages/Error404";
+import NavbarCryFIn from "./components/NavbarCryFIn"
+import Footer from "./components/Footer"
+import Loading from "./components/Loading"
+import ProjectContainer from "./components/ProjectContainer"
+
+
+// import Home from "./pages/Home"
+
+
+import "../src/css/style.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+
+import "bootstrap/dist/js/bootstrap.bundle"
+
+
 
 
 const App = () => {
-  return (
-      <BrowserRouter>
-      <Routes>
-        <Route path="modal" element={<ModalPublicar/>}/>
-        <Route path="login" element={<Login/>}/>
-        <Route path="registro" element={<Registro/>}/>
-        <Route path="selector" element={
-          <ProtectedRoutes>
-            <Selector/>
-          </ProtectedRoutes>
-        }/>
-        
-        
-      </Routes>
-      </BrowserRouter>
+    return (
+
+      <ProjectContainer></ProjectContainer>
+      // <BrowserRouter>
+      //   <Routes>
+      //     <Route
+      //       path="/"
+      //       element={
+      //           <Home />
+      //       }
+      //     />
+
+
+          
+      //     {/* <Route
+      //       path="coin/:coinId"
+      //       element={
+      //         <ProtectedRoutes>
+      //           <CoinScreen />
+      //         </ProtectedRoutes>
+      //       }
+      //     />
+      //     <Route path="login" element={<LoginScreen />} />
+      //     <Route path="*" element={<Error404 />} /> */}
+      //   </Routes>
+      // </BrowserRouter>
+    );
+  };
   
-  );
+  
 
 export default App;
 
