@@ -4,13 +4,13 @@ import "../css/error404.css"
 
 const Error404 = () => {
   return (
-    <div className="container">
-        <div className="row">
-            <div className="col">
+    // <div className="container-fluid">
+        // <div className="row">
+            <div className="error">
                 <img src={error404} alt="Error 404" className='img-Error' />
             </div>
-          </div>
-    </div>
+          // </div>
+    // </div>
 )
 }
 

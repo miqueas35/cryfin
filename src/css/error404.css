@@ -1,13 +1,13 @@
-.row{
-  height: 100%;
 
+.error{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.col{
-  height: 100%;
-  text-align: center;
-  
-}
+
 .img-Error{
-  width: 80%;
+  width: 40%;
+  align-items: center;
   }
 

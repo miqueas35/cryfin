@@ -4,17 +4,24 @@ import Error404 from "./pages/Error404";
 import NavbarCryFIn from "./components/NavbarCryFIn"
 import Footer from "./components/Footer"
 import Loading from "./components/Loading"
-// import Home from "./pages/Home";
+import ProjectContainer from "./components/ProjectContainer"
+
+
+// import Home from "./pages/Home"
 
 
 import "../src/css/style.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+
+import "bootstrap/dist/js/bootstrap.bundle"
+
+
 
 
 const App = () => {
     return (
 
-      <Error404></Error404>
-
+      <ProjectContainer></ProjectContainer>
       // <BrowserRouter>
       //   <Routes>
       //     <Route
