@@ -160,7 +160,7 @@ const {form,
     </form>
     {/* {loading && <Loader/>} */}
     {response && (
-      <Mensaje/>
+      <Mensaje msg = "Los datos han sido enviados" bgColor="#198754"/>
     )}
     </div>
     
