@@ -12,8 +12,10 @@ const Footer = () => {
           <div className='container justify-content-between'>
 
             <div className="row">
-              <div className="col-md-1 col-sm-12 my-3">
-                <img src={Favicon} alt="logo Coincap" className='img-footer'/>
+              <div className="col-md-1 col-sm-12">
+                {/* <Link to="/"> */}
+                  <img src={Favicon} alt="logo Coincap" className='img-footer'/>
+                {/* </Link>  */}  
               </div>
 
               <div className="col-md-5 col-sm-12 my-3 text-uppercase">

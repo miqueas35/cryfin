@@ -7,7 +7,7 @@ import "../css/navbar.css"
 
 const NavbarCryFIn  = () => {
     return (
-      <nav class="navbar navbar-expand-lg navbar-dark"> 
+      <nav className="navbar navbar-expand-lg navbar-dark"> 
       <div className="container">
         
         {/* <Link to="/"> */}
@@ -25,22 +25,22 @@ const NavbarCryFIn  = () => {
               {/* </Link> */}
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="/">  */}
+              {/* <Link to="*">  */}
                 User
               {/* </Link>   */}
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="/">  */}
+              {/* <Link to="*">  */}
                 News
               {/* </Link>  */}
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="/"> */}
+              {/* <Link to="*"> */}
                 CryptoCurrecy
               {/* </Link>  */}
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="/">   */}
+              {/* <Link to="/login">   */}
                 Log Out
               {/* </Link>  */}
             </li>
