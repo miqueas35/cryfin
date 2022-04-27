@@ -5,6 +5,7 @@ import NavbarCryFIn from "./components/NavbarCryFIn"
 import Footer from "./components/Footer"
 import Loading from "./components/Loading"
 import ProjectContainer from "./components/ProjectContainer"
+import Home from "./pages/Home"
 
 
 // import Home from "./pages/Home"
@@ -21,7 +22,7 @@ import "bootstrap/dist/js/bootstrap.bundle"
 const App = () => {
     return (
 
-      <ProjectContainer></ProjectContainer>
+      <Home></Home>
       // <BrowserRouter>
       //   <Routes>
       //     <Route

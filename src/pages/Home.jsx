@@ -7,9 +7,10 @@ function Home() {
   return (
     <div>
       <CarouselHome />
+      <div className="container">
           <CarouserCripto />
           <ShowProyect />
-
+      </div>
       
     </div>
   );

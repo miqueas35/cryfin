@@ -1,5 +1,5 @@
 import React from 'react'
-import invercionImg from "../Img/Inversiones/inversiones.png";
+import invercionImg from "../img/Inversiones/inversiones.png";
 
 
 function ShowProyect() {

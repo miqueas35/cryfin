@@ -1,34 +1,25 @@
 .imgConfig img {
     position: relative;
-    height: 300px;
     width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    filter: grayscale(80%);
 }
 
 .imgConfig p {
     margin-top: 70px;
     position: absolute;
-    font-family: Georgia, serif;
-    font-size: 15px;
-    letter-spacing: 0px;
-    word-spacing: 0px;
-    color: #000000;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight:bolder;
+    font-style: italic;
 }
 
 .cripto {
-    background: rgb(40, 34, 98);
-    font-family: Georgia, serif;
-    font-size: 15px;
-    letter-spacing: 0px;
-    word-spacing: 0px;
+    max-height: 10vh;
+    font-size: 1rem;
     color: white;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
+    font-weight: bold;
+    color: black;
+    text-align: end;
 }
