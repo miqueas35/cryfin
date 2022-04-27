@@ -8,11 +8,11 @@ import "../css/navbar.css"
 const NavbarCryFIn  = () => {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark"> 
-      <div className="container">
+      <div className="container nav-cont">
         
-        {/* <Link to="/"> */}
+        <Link to="/">
           <img src={Logo} alt="logo CryFIn" className='img-logo' />
-        {/* </Link>  */}
+        </Link> 
         
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -20,29 +20,29 @@ const NavbarCryFIn  = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="/"> */}
-                Home
-              {/* </Link> */}
+              <Link to="/login">
+                Iniciar sesión
+              </Link>
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="*">  */}
-                User
-              {/* </Link>   */}
+              <Link to="*"> 
+                Usuario
+              </Link>  
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="*">  */}
-                News
-              {/* </Link>  */}
-            </li>
-            <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="*"> */}
+              <Link to="*">
                 CryptoCurrecy
-              {/* </Link>  */}
+              </Link> 
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="/login">   */}
-                Log Out
-              {/* </Link>  */}
+              <Link to="/about"> 
+                Conocenos
+              </Link> 
+            </li>
+            <li className="nav-item m-4 text-uppercase">
+              <Link to="/login">  
+                Cerrar sesión
+              </Link> 
             </li>
           </ul>
       </div>

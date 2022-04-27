@@ -8,7 +8,7 @@ function CarouselHome() {
   return (
     <div
       id="carouselExampleSlidesOnly"
-      className="carousel slide "
+      className="carousel slide mt-3"
       data-bs-ride="carousel"
     >
       <div className="carousel-inner imgConfig">
@@ -26,7 +26,7 @@ function CarouselHome() {
                     align-items-center
                     justify-content-end">
           <div className="row">
-            <div className="col-md-6 offset-md-6 text-md-end">
+            <div className="col-md-6 ">
               <p className="card-text mx-5  text-uppercase">
                 Crypto Future Investments es la forma más rápida y fácil de invertir desde tu casa
               </p>

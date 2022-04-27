@@ -1,11 +1,19 @@
 .radius{
-    border-radius:100% !important;
+    border-radius:50% !important;
     width:100%;
     height: 100%;
-
 }
 .card{
     border: none !important;
-    background: transparent !important;
-    
+}
+
+.envelope{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
 }

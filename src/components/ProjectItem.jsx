@@ -14,7 +14,7 @@ const ProjectItem = (props) => {
                         <small className="text-muted">Author: {item.author}</small>
                     </p>
                     <div className='text-end'>
-                    <button type="button" className="btn btn-outline-primary w-50">Invertir</button> 
+                    <button type="button" className="btn w-50">Invertir</button> 
                     </div>
                 </div>
             </div>

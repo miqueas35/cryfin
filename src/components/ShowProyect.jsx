@@ -11,13 +11,11 @@ function ShowProyect() {
       >
         <div className="col">
           <div className="card h-100">
-            <img src={invercionImg} className="card-img-top" alt="..." />
+            <img src="https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/recetas/churros_chocolate_s56639251.jpg_1014274486.jpg" className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Proyecto 1</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste recusandae, assumenda et fuga impedit numquam nulla suscipit blanditiis labore at quod dolor nam in ad, ut incidunt amet ex aspernatur.
               </p>
             </div>
             <div className="card-footer">
@@ -27,13 +25,11 @@ function ShowProyect() {
         </div>
         <div className="col">
           <div className="card h-100">
-            <img src={invercionImg} className="card-img-top" alt="..." />
+            <img src="https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Proyecto 2</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa beatae sed praesentium laudantium facere, quasi sapiente? Sit repellendus, unde et incidunt eius, facere perferendis vitae rem tenetur quidem dolores nisi?
               </p>
             </div>
             <div className="card-footer">
@@ -43,13 +39,11 @@ function ShowProyect() {
         </div>
         <div className="col">
           <div className="card h-100">
-            <img src={invercionImg} className="card-img-top" alt="..." />
+            <img src="https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Proyecto 3</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit possimus adipisci similique delectus placeat repellendus commodi! Voluptatibus debitis quaerat obcaecati odio laudantium quo eaque atque quos, autem, sit accusamus ad?
               </p>
             </div>
             <div className="card-footer">
@@ -58,24 +52,9 @@ function ShowProyect() {
           </div>
         </div>
       </div>
-      <nav
-        aria-label="Page navigation example"
-        className="d-flex justify-content-center mt-3"
-      >
-        <ul className="pagination">
-          <li className="page-item">
-            <a className="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li>
-
-          <li className="page-item">
-            <a className="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div className="d-grid gap-2 col-6 mx-auto my-5">
+        <button className="btn" type="button">Ver todos los proyectos</button>
+      </div>
     </div>
   )
 }
