@@ -1,11 +1,17 @@
 import React from "react";
 import invercionImg from "../img/Inversiones/inversiones2.png";
 import "../css/aboutUs.css";
+import NavbarCryFIn from "../components/NavbarCryFIn";
+import Footer from "../components/Footer";
 
 function AboutUs() {
   //style="max-width: 540px;"
   return (
-    <div className=" row d-flex justify-content-center">
+    <div>
+      <div>
+        <NavbarCryFIn/>
+      </div>
+      <div className=" row d-flex justify-content-center">
       <div className=" col-5 g-4 text-center fondo ">
         <div className="card mb-3">
           <div className="row g-0">
@@ -108,6 +114,11 @@ function AboutUs() {
         </div>
       </div>
     </div>
+    <div>
+      <Footer/>
+    </div>
+    </div>
+    
   );
 }
 
