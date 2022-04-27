@@ -1,7 +1,7 @@
 import React from "react";
-import invercionImg from "../Img/Inversiones/inversiones.png";
-import invercionImg2 from "../Img/Inversiones/inversiones2.png";
-import invercionImg3 from "../Img/Inversiones/inversiones3.png";
+import invercionImg from "../img/Inversiones/inversiones.png";
+import invercionImg2 from "../img/Inversiones/inversiones2.png";
+import invercionImg3 from "../img/Inversiones/inversiones3.png";
 import "../css/carousel.css";
 
 function CarouselHome() {

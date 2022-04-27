@@ -1,5 +1,5 @@
 import React from "react";
-import invercionImg from "../Img/Inversiones/inversiones2.png";
+import invercionImg from "../img/Inversiones/inversiones2.png";
 import "../css/aboutUs.css";
 
 function AboutUs() {
