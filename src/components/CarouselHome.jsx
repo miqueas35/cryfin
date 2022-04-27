@@ -13,21 +13,25 @@ function CarouselHome() {
     >
       <div className="carousel-inner imgConfig">
         <div className="carousel-item active ">
-          <img src={invercionImg} className="d-block  " alt="inversiones" />
+          <img src={invercionImg} className="d-block img-fluid" alt="inversiones" />
         </div>
         <div className="carousel-item ">
-          <img src={invercionImg2} className="d-block  " alt="inversiones2" />
+          <img src={invercionImg2} className="d-block img-fluid" alt="inversiones2" />
         </div>
         <div className="carousel-item ">
-          <img src={invercionImg3} className="d-block  " alt="inversiones3" />
+          <img src={invercionImg3} className="d-block img-fluid" alt="inversiones3" />
         </div>
-        <div className="container d-flex ">
-          <p className="card-text col-3 ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dicta
-            placeat sapiente quae doloremque inventore quidem omnis harum porro
-            optio. Fugiat numquam ad repudiandae iure modi natus beatae
-            assumenda unde.
-          </p>
+        <div className="container
+                    d-flex
+                    align-items-center
+                    justify-content-end">
+          <div className="row">
+            <div className="col-md-6 offset-md-6 text-md-end">
+              <p className="card-text mx-5  text-uppercase">
+                Crypto Future Investments es la forma más rápida y fácil de invertir desde tu casa
+              </p>
+            </div>
+        </div>
         </div>
       </div>
     </div>

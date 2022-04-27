@@ -21,7 +21,7 @@ import "bootstrap/dist/js/bootstrap.bundle"
 const App = () => {
     return (
 
-      <BrowserRouter>
+ <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Error404 />} />
@@ -38,7 +38,7 @@ const App = () => {
         />
       </Routes>
     </BrowserRouter>
-    );
+  );
   };
   
   

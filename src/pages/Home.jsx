@@ -13,14 +13,14 @@ function Home() {
       </div>
       <div>
       <CarouselHome />
+      <div className="container">
           <CarouserCripto />
           <ShowProyect />
-       </div>
-      <div>
+ <div>
         <Footer/>
       </div>
    
-    </div>
+
     
   );
 }
