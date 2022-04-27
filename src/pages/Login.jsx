@@ -1,9 +1,17 @@
-import React from 'react' 
+import React, { useEffect } from 'react' 
 import logo from '../img/Logo.png'
 import LoginGoogle from '../components/LoginGoogle'
 import "../css/login.css"
+import Footer from "../components/Footer"
 
 const Login = () => {
+
+  useEffect(() => {
+   localStorage.removeItem('auth')
+   localStorage.removeItem('user')
+  }, []
+
+  )
   return (
     <div className="container">
         <div className="row card-login">
@@ -53,7 +61,10 @@ const Login = () => {
   
                 </div> 
            </div>
-         </div>       
+         </div>  
+         <div>
+           <Footer/>
+           </div>     
     </div>  
     
   )
