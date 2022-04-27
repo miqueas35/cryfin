@@ -153,6 +153,10 @@ const {form,
                     required
                   />
                   {errors.password && <p style={styles}>{errors.password}</p>}
+                  <label>
+                    <p>La contraseña debe tener entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula.
+NO puede tener otros símbolos.</p>
+                  </label>
                 </div>
                 <div className="d-grid gap-2">
                  <Link className="btn btn-outline-success" to="/projects">Registrarme</Link>
