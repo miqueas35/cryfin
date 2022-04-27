@@ -8,7 +8,7 @@ const isAuth= JSON.parse(localStorage.getItem('auth')) || null;
   return (
       <>
      
-       {isAuth ? children : <Navigate to='selector'/>}
+       {isAuth ? children : <Navigate to='login'/>}
       </>
       
    );

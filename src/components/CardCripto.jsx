@@ -4,7 +4,7 @@ import '../css/criptoCard.css'
 function CardCripto({cripto}) {
   return (
     
-      <div className="card cardCripto" >
+      <div className="card cardCripto mx-3 my-3" >
         <div className="row cripto ">
           <div className="col-2">
             <img src={cripto.logo_url} 

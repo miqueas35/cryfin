@@ -1,21 +1,21 @@
-import React from 'react'
-import GoogleLogin from 'react-google-login'
-import {useNavigate} from 'react-router-dom'
+import React from 'react';
+import GoogleLogin from 'react-google-login';
+import {useNavigate} from 'react-router-dom';
 
 const LoginGoogle = () => {
 
-  let navigate=useNavigate()
+  let navigate=useNavigate();
 
   const responseGoogle = (response) => {
     console.log(response);
 
     if(response?.error){
-      console.warn('Error en el logueo')
+      console.warn('Error en el logueo');
     }else{
-      console.log('Usuario autenticado')
-      localStorage.setItem('auth', JSON.stringify(response.accessToken))
-      localStorage.setItem('user', JSON.stringify(response.profileObj))
-      navigate('selector')
+      console.log('Usuario autenticado');
+      localStorage.setItem('auth', JSON.stringify(response.accessToken));
+      localStorage.setItem('user', JSON.stringify(response.profileObj));
+      navigate('projects');
     }
   }
 

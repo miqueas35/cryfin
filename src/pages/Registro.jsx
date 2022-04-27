@@ -2,6 +2,7 @@ import { useForm } from '../hooks/useForm'
 import logo from '../img/Logo.png'
 import "../css/login.css"
 import Mensaje from '../components/Mensaje'
+import Footer from '../components/Footer'
 
 const initialForm = {
   nombre:"",
@@ -160,14 +161,17 @@ const {form,
     </form>
     {/* {loading && <Loader/>} */}
     {response && (
-      <Mensaje/>
+      <Mensaje msg = "Los datos han sido enviados" bgColor="#198754"/>
     )}
     </div>
     
   
                 </div> 
            </div>
-         </div>       
+         </div> 
+         <div>
+          <Footer/> 
+           </div>      
     </div>  
   )
 }
