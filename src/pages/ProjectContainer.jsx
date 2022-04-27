@@ -15,9 +15,16 @@ const ProjectContainer = () => {
       <div className="container">
         <div className="row">
             <div className="col my-3">
-                <h2 className="display-4 text-uppercase fst-italic text-center">Proyectos</h2>
+                <h2 className="display-4 text-center">Proyectos</h2>
             </div>
         </div> 
+
+        <div className="row">
+            <div className="d-grid gap-2 col-6 mx-auto mb-5">
+              <button className="btn">Publicar nuevo proyecto</button>
+            </div>
+        </div>
+        
 
                 <ProjectList/>
             

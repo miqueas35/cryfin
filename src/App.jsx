@@ -18,6 +18,7 @@ import "bootstrap/dist/js/bootstrap.bundle"
 
 
 
+
 const App = () => {
     return (
 
@@ -31,9 +32,9 @@ const App = () => {
         <Route
           path="/projects"
           element={
-            <ProtectedRoutes>
+            // <ProtectedRoutes>
               <ProjectContainer />
-            </ProtectedRoutes>
+            // </ProtectedRoutes>
           }
         />
       </Routes>
