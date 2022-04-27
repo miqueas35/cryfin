@@ -31,7 +31,7 @@ const NavbarCryFIn  = () => {
             </li>
             <li className="nav-item m-4 text-uppercase">
               <Link to="*">
-                CryptoCurrecy
+                CryptoCurrency
               </Link> 
             </li>
             <li className="nav-item m-4 text-uppercase">
