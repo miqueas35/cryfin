@@ -3,6 +3,7 @@ import logo from '../img/Logo.png'
 import "../css/login.css"
 import Mensaje from '../components/Mensaje'
 import Footer from '../components/Footer'
+import {Link} from 'react-router-dom'
 
 const initialForm = {
   nombre:"",
@@ -17,7 +18,7 @@ const validationsForms = (form) => {
   let errors = {} 
    let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
    let regexEmail = /^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$/;
-   let regexPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,15}/;
+   let regexPassword = /^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/;
 
   if(!form.nombre.trim()){
     errors.nombre="El campo 'Nombre' es requerido";
@@ -154,8 +155,7 @@ const {form,
                   {errors.password && <p style={styles}>{errors.password}</p>}
                 </div>
                 <div className="d-grid gap-2">
-                 
-                 <button className="btn btn-outline-success" type="submit">Registrarme</button>
+                 <Link className="btn btn-outline-success" to="/projects">Registrarme</Link>
                 </div>
               
     </form>

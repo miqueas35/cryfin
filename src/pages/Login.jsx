@@ -3,6 +3,7 @@ import logo from '../img/Logo.png'
 import LoginGoogle from '../components/LoginGoogle'
 import "../css/login.css"
 import Footer from "../components/Footer"
+import {Link} from 'react-router-dom'
 
 const Login = () => {
 
@@ -48,8 +49,8 @@ const Login = () => {
                 </div>
                 
                 <div className="d-grid gap-2">
-                 <button className="btn btn-outline-success" type="button">Iniciar Sesión</button>
-                 <button className="btn btn-success" type="button">Registrarse</button>
+                  <Link className="btn btn-outline-success" to="projects">Iniciar Sesión</Link>
+                 <Link className="btn btn-success" to="registro">Registrarse</Link>
                 </div>
               
     </form>
