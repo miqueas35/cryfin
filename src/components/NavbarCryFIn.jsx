@@ -10,9 +10,9 @@ const NavbarCryFIn  = () => {
       <nav className="navbar navbar-expand-lg navbar-dark"> 
       <div className="container">
         
-        {/* <Link to="/"> */}
+        { <Link to="/"> 
           <img src={Logo} alt="logo CryFIn" className='img-logo' />
-        {/* </Link>  */}
+         </Link>  }
         
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -20,29 +20,34 @@ const NavbarCryFIn  = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="/"> */}
-                Home
-              {/* </Link> */}
+              { <Link to="/login"> 
+                Login
+               </Link>}
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="*">  */}
+              { <Link to="/about"> 
+                Sobre Nosotros
+               </Link>}
+            </li>
+            <li className="nav-item m-4 text-uppercase">
+              { <Link to="/modal"> 
                 User
-              {/* </Link>   */}
+               </Link>   }
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="*">  */}
+              { <Link to="*">  
                 News
-              {/* </Link>  */}
+               </Link>  }
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="*"> */}
+              { <Link to="*"> 
                 CryptoCurrecy
-              {/* </Link>  */}
+               </Link>  }
             </li>
             <li className="nav-item m-4 text-uppercase">
-              {/* <Link to="/login">   */}
+              { <Link to="/">   
                 Log Out
-              {/* </Link>  */}
+               </Link> }
             </li>
           </ul>
       </div>

@@ -13,14 +13,14 @@ const Footer = () => {
 
             <div className="row">
               <div className="col-md-1 col-sm-12">
-                {/* <Link to="/"> */}
+                { <Link to="/"> 
                   <img src={Favicon} alt="logo Coincap" className='img-footer'/>
-                {/* </Link>  */}  
+                 </Link>  }  
               </div>
 
               <div className="col-md-5 col-sm-12 my-3 text-uppercase">
                 <h4>Our vision</h4>
-                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime harum voluptate doloremque incidunt commodi. Corrupti maxime consequuntur distinctio fugit ullam.</small>
+                <small>Nuestro objetivo es conectar personas para que sus sueños se hagan realidad.</small>
               </div>
 
               <div className="col-md-5 col-sm-12 my-3 text-uppercase"> 

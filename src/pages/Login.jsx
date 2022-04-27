@@ -49,8 +49,8 @@ const Login = () => {
                 </div>
                 
                 <div className="d-grid gap-2">
-                  <Link className="btn btn-outline-success" to="projects">Iniciar Sesión</Link>
-                 <Link className="btn btn-success" to="registro">Registrarse</Link>
+                  <Link className="btn btn-outline-success" to="/projects">Iniciar Sesión</Link>
+                 <Link className="btn btn-success" to="/registro">Registrarse</Link>
                 </div>
               
     </form>

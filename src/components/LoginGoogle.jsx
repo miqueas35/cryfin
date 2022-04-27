@@ -15,7 +15,7 @@ const LoginGoogle = () => {
       console.log('Usuario autenticado');
       localStorage.setItem('auth', JSON.stringify(response.accessToken));
       localStorage.setItem('user', JSON.stringify(response.profileObj));
-      navigate('projects');
+      navigate('/projects');
     }
   }
 
