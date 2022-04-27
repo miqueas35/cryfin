@@ -16,13 +16,13 @@ function Home() {
       <div className="container">
           <CarouserCripto />
           <ShowProyect />
-       </div>
-      <div>
+ <div>
         <Footer/>
       </div>
-   
-    </div>
-    </div>
+   </div>
+   </div>
+   </div>
+
     
   );
 }
