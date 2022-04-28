@@ -10,7 +10,7 @@ function CarouserCripto() {
     data: null,
   });
 
-  let index;
+  let index =0;
 
   const CambioCripto = () => {
     getCoinCarousel(index).then((data) => {
@@ -28,15 +28,15 @@ function CarouserCripto() {
   }, []);
 
   const temporizador = () => {
-    setTimeout(() => {
+      setInterval( ()=> {
       if (index === 0) {
         index = 1;
       } else {
         index = 0;
-      }
-
-      CambioCripto();
-    }, 10000);
+        }
+        CambioCripto()
+      console.log(index);
+    },5000);
   };
 
   console.log(cripto);
