@@ -13,9 +13,13 @@ function Home() {
       </div>
       <div>
         <CarouselHome />
-        <div className="container cont-home">
-          <CarouserCripto />
-          <ShowProyect />
+        <div className="container">
+          <div className="row pt-3">
+            <CarouserCripto />
+          </div>
+          <div className="row py-3">
+            <ShowProyect />
+          </div>
         </div>
         <div>
           <Footer />
