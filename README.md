@@ -6,4 +6,4 @@ Finalmente al deployar la página en Netlify, nos encontramos con que el diseño
 
 
   
-  Netlify: https://stirring-valkyrie-51e3ae.netlify.app/
+  Netlify: https://dynamic-crisp-369c11.netlify.app/
