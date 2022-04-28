@@ -31,3 +31,9 @@
     top: 1rem;
     right: 1rem;
 }
+
+.cont-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -19,11 +19,7 @@ const Footer = () => {
 
           <div className="col-md-5 col-sm-12 my-3 text-uppercase">
             <h4>Our vision</h4>
-            <small>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              harum voluptate doloremque incidunt commodi. Corrupti maxime
-              consequuntur distinctio fugit ullam.
-            </small>
+            <small>Conectando personas y sueños</small>
           </div>
 
           <div className="col-md-4 col-sm-12 my-3 text-uppercase">

@@ -5,6 +5,8 @@ import "../css/projects.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarCryFIn from "../components/NavbarCryFIn";
 import Footer from "../components/Footer";
+import { ListGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const ProjectContainer = () => {
   return (
@@ -21,7 +23,9 @@ const ProjectContainer = () => {
 
         <div className="row">
           <div className="d-grid gap-2 col-6 mx-auto mb-5">
-            <button className="btn">Publicar nuevo proyecto</button>
+            <Link className="btn" to="/modal">
+              Publicar nuevo proyecto
+            </Link>
           </div>
         </div>
 

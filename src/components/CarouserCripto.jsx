@@ -8,9 +8,9 @@ function CarouserCripto() {
   const [cripto, setCripto] = useState({
     loading: true,
   });
-  const [index, setIndex] = useState(0);
+  let index;
 
-  useEffect(() => {
+  const CambioCripto = () => {
     getCoinCarousel(index).then((data) => {
       const { items } = data;
       setCripto({
@@ -18,7 +18,24 @@ function CarouserCripto() {
         data: items,
       });
     });
+    temporizador();
+  };
+
+  useEffect(() => {
+    CambioCripto();
   }, []);
+
+  const temporizador = () => {
+    setTimeout(() => {
+      if (index === 0) {
+        index = 1;
+      } else {
+        index = 0;
+      }
+
+      CambioCripto();
+    }, 10000);
+  };
 
   console.log(cripto);
   return (
@@ -32,7 +49,7 @@ function CarouserCripto() {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner ">
-            <div className="carousel-item active" onChange={() => setIndex(0)}>
+            <div className="carousel-item active">
               <div className="conteiner">
                 <div className="row">
                   <div className="col d-flex">
@@ -44,7 +61,7 @@ function CarouserCripto() {
               </div>
             </div>
 
-            <div className="carousel-item" onChange={() => setIndex(1)}>
+            <div className="carousel-item">
               <div className="conteiner">
                 <div className="row">
                   <div className="col d-flex">
