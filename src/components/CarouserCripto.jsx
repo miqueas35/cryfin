@@ -7,8 +7,11 @@ import Loading from "./Loading";
 function CarouserCripto() {
   const [cripto, setCripto] = useState({
     loading: true,
+    data: null,
   });
-  let index;
+
+  const [index, setIndex] = useState(0);
+  // let index;
 
   const CambioCripto = () => {
     getCoinCarousel(index).then((data) => {
@@ -23,17 +26,15 @@ function CarouserCripto() {
 
   useEffect(() => {
     CambioCripto();
-  }, []);
+  }, [index]);
 
   const temporizador = () => {
     setTimeout(() => {
       if (index === 0) {
-        index = 1;
+        setIndex(1);
       } else {
-        index = 0;
+        setIndex(0);
       }
-
-      CambioCripto();
     }, 10000);
   };
 
