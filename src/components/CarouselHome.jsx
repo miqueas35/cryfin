@@ -8,30 +8,34 @@ function CarouselHome() {
   return (
     <div
       id="carouselExampleSlidesOnly"
-      className="carousel slide mt-3"
+      className="carousel slide"
       data-bs-ride="carousel"
     >
       <div className="carousel-inner imgConfig">
         <div className="carousel-item active ">
-          <img src={invercionImg} className="d-block img-fluid" alt="inversiones" />
+          <img
+            src={invercionImg}
+            className="d-block img-fluid"
+            alt="inversiones"
+          />
         </div>
         <div className="carousel-item ">
-          <img src={invercionImg2} className="d-block img-fluid" alt="inversiones2" />
+          <img
+            src={invercionImg2}
+            className="d-block img-fluid"
+            alt="inversiones2"
+          />
         </div>
         <div className="carousel-item ">
-          <img src={invercionImg3} className="d-block img-fluid" alt="inversiones3" />
+          <img
+            src={invercionImg3}
+            className="d-block img-fluid"
+            alt="inversiones3"
+          />
         </div>
-        <div className="container
-                    d-flex
-                    align-items-center
-                    justify-content-end">
-          <div className="row">
-            <div className="col-md-6 ">
-              <p className="card-text mx-5  text-uppercase">
-                Crypto Future Investments es la forma más rápida y fácil de invertir desde tu casa
-              </p>
-            </div>
-        </div>
+        <div className="txt-container text-uppercase">
+          Crypto Future Investments es la forma más rápida y fácil de invertir
+          desde tu casa
         </div>
       </div>
     </div>
@@ -39,3 +43,8 @@ function CarouselHome() {
 }
 
 export default CarouselHome;
+
+// container
+// d-flex
+// align-items-center
+// justify-content-end">

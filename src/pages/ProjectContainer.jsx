@@ -5,7 +5,6 @@ import "../css/projects.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarCryFIn from "../components/NavbarCryFIn";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 const ProjectContainer = () => {
   return (
@@ -13,7 +12,7 @@ const ProjectContainer = () => {
       <div>
         <NavbarCryFIn />
       </div>
-      <div className="container">
+      <div className="container container-main">
         <div className="row">
           <div className="col my-3">
             <h2 className="display-4 text-center">Proyectos</h2>
@@ -22,10 +21,7 @@ const ProjectContainer = () => {
 
         <div className="row">
           <div className="d-grid gap-2 col-6 mx-auto mb-5">
-            <Link className="btn" to="/modal">
-              Publicar nuevo proyecto
-            </Link>
-            {/* <button ></button> */}
+            <button className="btn">Publicar nuevo proyecto</button>
           </div>
         </div>
 

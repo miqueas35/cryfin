@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../css/carousel.css";
 import { getCoinCarousel } from "../helpers/criptoCarousel";
 import CardCripto from "./CardCripto";
+import Loading from "./Loading";
 
 function CarouserCripto() {
   const [cripto, setCripto] = useState({
@@ -40,15 +41,15 @@ function CarouserCripto() {
   return (
     <>
       {cripto.loading ? (
-        <h3 className="text-white text-center">Cargando información...</h3>
+        <Loading />
       ) : (
         <div
           id="carouselExampleControls"
           className="carousel slide "
           data-bs-ride="carousel"
         >
-          <div className="carousel-inner my-3">
-            <div className="carousel-item active">
+          <div className="carousel-inner ">
+            <div className="carousel-item active" onChange={() => setIndex(0)}>
               <div className="conteiner">
                 <div className="row">
                   <div className="col d-flex">

@@ -9,21 +9,19 @@ function Home() {
   return (
     <div>
       <div>
-        <NavbarCryFIn/>
+        <NavbarCryFIn />
       </div>
       <div>
-      <CarouselHome />
-      <div className="container">
+        <CarouselHome />
+        <div className="container cont-home">
           <CarouserCripto />
           <ShowProyect />
-      <div>
-        <Footer/>
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
-   </div>
-   </div>
-   </div>
-
-    
+    </div>
   );
 }
 

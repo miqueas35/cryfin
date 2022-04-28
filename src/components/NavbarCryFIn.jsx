@@ -6,7 +6,7 @@ import "../css/navbar.css";
 
 const NavbarCryFIn = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar navbar-expand-lg">
       <div className="container nav-cont">
         {
           <Link to="/">

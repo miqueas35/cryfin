@@ -9,12 +9,11 @@
   link{
     text-decoration: none;
   }
-  .nav-item{
+  .nav-item a{
     font-size: large;
     font-family: "Source Code Pro", monospace;
     transition: transform 0.2s;
     color: white;
-    
   }
 
   .nav-item:hover{
