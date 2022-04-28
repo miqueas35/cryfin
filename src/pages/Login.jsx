@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import logo from "../img/Logo.png";
-// import LoginGoogle from '../components/LoginGoogle'
+import LoginGoogle from "../components/LoginGoogle";
 import "../css/login.css";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -69,23 +69,11 @@ const Login = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="d-grid gap-2 col-6 mx-auto my-5">
-                    <Link className="btn" to="projects">
-                      Iniciar Sesión
-                    </Link>
-                    <Link className="btn" to="registro">
-                      Registrarse
-                    </Link>
-                  </div>
-                </div>
               </form>
             </div>
-            {/* <div className='text-center bg-light py-3'>
-      <LoginGoogle/>
-
-    </div>
-   */}
+            <div className="text-center bg-light py-3">
+              <LoginGoogle />
+            </div>
           </div>
         </div>
       </div>
