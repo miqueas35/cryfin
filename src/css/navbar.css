@@ -1,0 +1,25 @@
+.navbar{
+    background-color: rgb(147, 150, 179) !important;
+  }
+
+  .nav-cont{
+    background-color: rgb(147, 150, 179) !important;
+  }
+
+  link{
+    text-decoration: none;
+  }
+  .nav-item a{
+    font-size: large;
+    font-family: "Source Code Pro", monospace;
+    transition: transform 0.2s;
+    color: white;
+  }
+
+  .nav-item:hover{
+    transform: scale(1.1);
+  }
+  
+  .img-logo {
+    width: 200px;
+  }

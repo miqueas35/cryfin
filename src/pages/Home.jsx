@@ -1,9 +1,28 @@
-import React from 'react'
+import React from "react";
+import CarouselHome from "../components/CarouselHome";
+import CarouserCripto from "../components/CarouserCripto";
+import Footer from "../components/Footer";
+import NavbarCryFIn from "../components/NavbarCryFIn";
+import ShowProyect from "../components/ShowProyect";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <div>
+        <NavbarCryFIn />
+      </div>
+      <div>
+        <CarouselHome />
+        <div className="container cont-home">
+          <CarouserCripto />
+          <ShowProyect />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
