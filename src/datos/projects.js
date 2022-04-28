@@ -27,7 +27,7 @@ export const projectList = [
     alt: "...",
   },
   {
-    id: 5,
+    id: 4,
     name: "Recicladores",
     author: "Mauro Romo",
     description:
@@ -36,7 +36,7 @@ export const projectList = [
     alt: "...",
   },
   {
-    id: 8,
+    id: 5,
     name: "Meta-Verse School",
     author: "Pablo Marino",
     description:
@@ -45,7 +45,7 @@ export const projectList = [
     alt: "...",
   },
   {
-    id: 9,
+    id: 6,
     name: "Hotel Job",
     author: "Juan Peréz",
     description:

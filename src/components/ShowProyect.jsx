@@ -17,12 +17,11 @@ function ShowProyect() {
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">Proyecto 1</h5>
+              <h5 className="card-title">Churro's King</h5>
               <p className="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                recusandae, assumenda et fuga impedit numquam nulla suscipit
-                blanditiis labore at quod dolor nam in ad, ut incidunt amet ex
-                aspernatur.
+                Tenemos la iniciativa de llevar el auténtico sabor de los
+                churros argentinos, sumados a la más exquisita cafetería, al
+                exigente público canadiense.
               </p>
             </div>
             <div className="card-footer">
@@ -38,12 +37,12 @@ function ShowProyect() {
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">Proyecto 2</h5>
+              <h5 className="card-title">ProJoystick</h5>
               <p className="card-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                beatae sed praesentium laudantium facere, quasi sapiente? Sit
-                repellendus, unde et incidunt eius, facere perferendis vitae rem
-                tenetur quidem dolores nisi?
+                Buscamos expandir nuestra empresa dedicada al mejoramiento y
+                creación de mandos de juego profesionales para los gammers más
+                exigentes. Apuntamos llegar a todo el mundo mediante un sistema
+                de envíos internacionales.
               </p>
             </div>
             <div className="card-footer">
@@ -59,12 +58,12 @@ function ShowProyect() {
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">Proyecto 3</h5>
+              <h5 className="card-title">Outline Holidays</h5>
               <p className="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit possimus adipisci similique delectus placeat
-                repellendus commodi! Voluptatibus debitis quaerat obcaecati odio
-                laudantium quo eaque atque quos, autem, sit accusamus ad?
+                Queremos concretar la realización de un complejo vacacional
+                dedicado a trabajadores de la industria IT que deseen tomarse un
+                descanso de su rutina, ofreciendoles un lugar de relax lejos de
+                cualquier conexión tecnológica.
               </p>
             </div>
             <div className="card-footer">
