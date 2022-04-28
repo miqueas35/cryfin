@@ -49,7 +49,7 @@ function CarouserCripto() {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner ">
-            <div className="carousel-item active" onChange={() => setIndex(0)}>
+            <div className="carousel-item active">
               <div className="conteiner">
                 <div className="row">
                   <div className="col d-flex">

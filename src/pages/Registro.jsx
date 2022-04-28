@@ -207,7 +207,7 @@ const Registro = () => {
 
             <div className="row">
               <div className="d-grid gap-2 col-6 mx-auto my-5">
-                <Link className="btn" to="projects">
+                <Link className="btn" to="/projects">
                   Registrarme
                 </Link>
               </div>

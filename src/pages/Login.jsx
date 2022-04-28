@@ -63,10 +63,10 @@ const Login = () => {
                   </div>
                   <div className="row">
                     <div className="d-grid gap-2 col-6 mx-auto my-5">
-                      <Link className="btn" to="projects">
+                      <Link className="btn" to="/projects">
                         Iniciar Sesión
                       </Link>
-                      <Link className="btn" to="registro">
+                      <Link className="btn" to="/registro">
                         Registrarse
                       </Link>
                     </div>
