@@ -17,3 +17,7 @@ a{
     color: black;
     font-size: large;
 }
+
+.list-group-item{
+    border: none;
+}

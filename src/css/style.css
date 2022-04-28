@@ -1,9 +1,9 @@
 body {
-    background: rgb(40, 34, 98) ;
+    background: rgb(40, 34, 98);
 }  
 
-.container{
-  height: auto;
+.cont-home{
+  min-height: 100vh;
 }
 
   
